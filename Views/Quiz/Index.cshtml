@@ -1,0 +1,20 @@
+﻿@model IEnumerable<Quiz>
+
+@{
+    ViewData["Title"] = "Quizzes";
+    Layout = "/Views/Shared/_UserLayout.cshtml";
+}
+
+<h1 class="welcome-text" style="font-weight:bolder;font-size:36px;">
+    Select Any Quiz You Like To Solve
+</h1>
+
+<div class="d-flex flex-wrap">
+    @foreach (var quiz in Model)
+    {
+        <div class="quiz-card">
+            <div class="lesson-title-small">@quiz.QuizName</div>
+            <a style="font-weight:bold" class="btn btn-secondary" asp-controller="Quiz" asp-action="Details" asp-route-id="@quiz.QuizId">Start Quiz!</a>
+        </div>
+    }
+</div>

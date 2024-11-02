@@ -1,0 +1,15 @@
+﻿@model efcoreApp.Models.QuizViewModel
+
+<h2>Edit Quiz</h2>
+<hr />
+
+<form asp-controller="AdminQuiz" asp-action="Edit" method="post">
+    <input type="hidden" asp-for="QuizId" />
+    <div class="form-group">
+        <label asp-for="QuizName" class="control-label">Quiz Name</label>
+        <input asp-for="QuizName" class="form-control" />
+        <span asp-validation-for="QuizName" class="text-danger"></span>
+    </div>
+    <br />
+    <button type="submit" class="btn btn-primary">Save Changes</button>
+</form>

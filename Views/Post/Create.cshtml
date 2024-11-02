@@ -1,0 +1,40 @@
+﻿@{
+    ViewData["Title"] = "Create Post";
+}
+
+@model Post
+
+<h2 style="text-align:center">New Tutorial</h2>
+<hr />
+
+<form asp-controller="Post" asp-action="Create" method="post">
+    <div class="mb-3">
+        <label asp-for="CategoryId" class="form-label">Category</label>
+        <select asp-for="CategoryId" asp-items="ViewBag.Categories" class="form-select">
+            <option value="">Select</option>
+        </select>
+    </div>
+    <div class="mb-3">
+        <label asp-for="Title" class="form-label">Title</label>
+        <input asp-for="Title" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label asp-for="Body" class="form-label">Content</label>
+        <!-- TinyMCE Metin Düzenleyici -->
+        <textarea id="editor" asp-for="Body" class="form-control" cols="30" rows="5"></textarea>
+    </div>
+
+    <button type="submit" class="btn btn-success">Submit</button>
+</form>
+
+<!-- TinyMCE Initialization -->
+<script src="https://cdn.tiny.cloud/1/c2aqdc64re6ivnh05okvtgexx48vmz6qc7oovuuylqvr5eag/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
+<script>
+    tinymce.init({
+        selector: '#editor',
+        height: 300,
+        plugins: 'link code',
+        toolbar: 'undo redo | formatselect | bold italic | alignleft aligncenter alignright alignjustify | link | code',
+    });
+</script>
+

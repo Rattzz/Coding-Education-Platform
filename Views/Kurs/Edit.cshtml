@@ -1,0 +1,22 @@
+﻿@model KursViewModel
+
+<h2 style="text-align:center">Edit Course</h2>
+<hr />
+<form asp-controller="Kurs" asp-action="Edit" method="post">
+    <input type="hidden" asp-for="KursId" />
+    <div asp-validation-summary="All"></div>
+
+    <div class="mb-3">
+        <label asp-for="Baslik" class="form-label">Course Name</label>
+        <input asp-for="Baslik" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="ImageURL" class="form-label">Course Image</label>
+        <input asp-for="ImageURL" type="file" class="form-control" />
+    </div>
+
+    <button type="submit" class="btn btn-success">Submit</button>
+</form>
+
+

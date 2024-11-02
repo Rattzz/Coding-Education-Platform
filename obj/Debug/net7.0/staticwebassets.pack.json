@@ -1,0 +1,361 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/emirdursun/Desktop/Bitirme Projesi Kodları/obj/Debug/net7.0/scopedcss/projectbundle/efcoreApp.bundle.scp.css",
+      "PackagePath": "staticwebassets/efcoreApp.bundle.scp.css"
+    },
+    {
+      "Id": "/Users/emirdursun/Desktop/Bitirme Projesi Kodları/wwwroot/css/site.css",
+      "PackagePath": "staticwebassets/css/site.css"
+    },
+    {
+      "Id": "/Users/emirdursun/Desktop/Bitirme Projesi Kodları/wwwroot/css/styles.css",
+      "PackagePath": "staticwebassets/css/styles.css"
+    },
+    {
+      "Id": "/Users/emirdursun/Desktop/Bitirme Projesi Kodları/wwwroot/favicon.ico",
+      "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/Users/emirdursun/Desktop/Bitirme Projesi Kodları/wwwroot/js/site.js",
+      "PackagePath": "staticwebassets/js/site.js"
+    },
+    {
+      "Id": "/Users/emirdursun/Desktop/Bitirme Projesi Kodları/wwwroot/lib/bootstrap/LICENSE",
+      "PackagePath": "staticwebassets/lib/bootstrap"
+    },
+    {
+      "Id": "/Users/emirdursun/Desktop/Bitirme Projesi Kodları/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css"
+    },
+    {
+      "Id": "/Users/emirdursun/Desktop/Bitirme Projesi Kodları/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css.map"
+    },
+    {
+      "Id": "/Users/emirdursun/Desktop/Bitirme Projesi Kodları/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css"
+    },
+    {
+      "Id": "/Users/emirdursun/Desktop/Bitirme Projesi Kodları/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "/Users/emirdursun/Desktop/Bitirme Projesi Kodları/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "/Users/emirdursun/Desktop/Bitirme Projesi Kodları/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "/Users/emirdursun/Desktop/Bitirme Projesi Kodları/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "/Users/emirdursun/Desktop/Bitirme Projesi Kodları/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/emirdursun/Desktop/Bitirme Projesi Kodları/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css"
+    },
+    {
+      "Id": "/Users/emirdursun/Desktop/Bitirme Projesi Kodları/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "/Users/emirdursun/Desktop/Bitirme Projesi Kodları/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "/Users/emirdursun/Desktop/Bitirme Projesi Kodları/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "/Users/emirdursun/Desktop/Bitirme Projesi Kodları/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "/Users/emirdursun/Desktop/Bitirme Projesi Kodları/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "/Users/emirdursun/Desktop/Bitirme Projesi Kodları/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "/Users/emirdursun/Desktop/Bitirme Projesi Kodları/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/emirdursun/Desktop/Bitirme Projesi Kodları/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css"
+    },
+    {
+      "Id": "/Users/emirdursun/Desktop/Bitirme Projesi Kodları/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "/Users/emirdursun/Desktop/Bitirme Projesi Kodları/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "/Users/emirdursun/Desktop/Bitirme Projesi Kodları/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "/Users/emirdursun/Desktop/Bitirme Projesi Kodları/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "/Users/emirdursun/Desktop/Bitirme Projesi Kodları/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "/Users/emirdursun/Desktop/Bitirme Projesi Kodları/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "/Users/emirdursun/Desktop/Bitirme Projesi Kodları/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/emirdursun/Desktop/Bitirme Projesi Kodları/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css"
+    },
+    {
+      "Id": "/Users/emirdursun/Desktop/Bitirme Projesi Kodları/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css.map"
+    },
+    {
+      "Id": "/Users/emirdursun/Desktop/Bitirme Projesi Kodları/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/emirdursun/Desktop/Bitirme Projesi Kodları/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/emirdursun/Desktop/Bitirme Projesi Kodları/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css"
+    },
+    {
+      "Id": "/Users/emirdursun/Desktop/Bitirme Projesi Kodları/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "/Users/emirdursun/Desktop/Bitirme Projesi Kodları/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "/Users/emirdursun/Desktop/Bitirme Projesi Kodları/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/emirdursun/Desktop/Bitirme Projesi Kodları/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js"
+    },
+    {
+      "Id": "/Users/emirdursun/Desktop/Bitirme Projesi Kodları/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "/Users/emirdursun/Desktop/Bitirme Projesi Kodları/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "/Users/emirdursun/Desktop/Bitirme Projesi Kodları/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "/Users/emirdursun/Desktop/Bitirme Projesi Kodları/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js"
+    },
+    {
+      "Id": "/Users/emirdursun/Desktop/Bitirme Projesi Kodları/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js.map"
+    },
+    {
+      "Id": "/Users/emirdursun/Desktop/Bitirme Projesi Kodları/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js"
+    },
+    {
+      "Id": "/Users/emirdursun/Desktop/Bitirme Projesi Kodları/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "/Users/emirdursun/Desktop/Bitirme Projesi Kodları/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js"
+    },
+    {
+      "Id": "/Users/emirdursun/Desktop/Bitirme Projesi Kodları/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js.map"
+    },
+    {
+      "Id": "/Users/emirdursun/Desktop/Bitirme Projesi Kodları/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js"
+    },
+    {
+      "Id": "/Users/emirdursun/Desktop/Bitirme Projesi Kodları/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
+    },
+    {
+      "Id": "/Users/emirdursun/Desktop/Bitirme Projesi Kodları/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/emirdursun/Desktop/Bitirme Projesi Kodları/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "/Users/emirdursun/Desktop/Bitirme Projesi Kodları/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "/Users/emirdursun/Desktop/Bitirme Projesi Kodları/wwwroot/lib/jquery-validation/LICENSE.md",
+      "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
+    },
+    {
+      "Id": "/Users/emirdursun/Desktop/Bitirme Projesi Kodları/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.js"
+    },
+    {
+      "Id": "/Users/emirdursun/Desktop/Bitirme Projesi Kodları/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.min.js"
+    },
+    {
+      "Id": "/Users/emirdursun/Desktop/Bitirme Projesi Kodları/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.js"
+    },
+    {
+      "Id": "/Users/emirdursun/Desktop/Bitirme Projesi Kodları/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
+    },
+    {
+      "Id": "/Users/emirdursun/Desktop/Bitirme Projesi Kodları/wwwroot/lib/jquery/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/emirdursun/Desktop/Bitirme Projesi Kodları/wwwroot/lib/jquery/dist/jquery.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.js"
+    },
+    {
+      "Id": "/Users/emirdursun/Desktop/Bitirme Projesi Kodları/wwwroot/lib/jquery/dist/jquery.min.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
+    },
+    {
+      "Id": "/Users/emirdursun/Desktop/Bitirme Projesi Kodları/wwwroot/lib/jquery/dist/jquery.min.map",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
+    },
+    {
+      "Id": "/Users/emirdursun/Desktop/Bitirme Projesi Kodları/wwwroot/uploads/38ceb773-597e-45ff-a329-0730f9cf752a.png",
+      "PackagePath": "staticwebassets/uploads/38ceb773-597e-45ff-a329-0730f9cf752a.png"
+    },
+    {
+      "Id": "/Users/emirdursun/Desktop/Bitirme Projesi Kodları/wwwroot/uploads/4cb0e1fe-600d-4662-a815-8dab8b5c4652.jpg",
+      "PackagePath": "staticwebassets/uploads/4cb0e1fe-600d-4662-a815-8dab8b5c4652.jpg"
+    },
+    {
+      "Id": "/Users/emirdursun/Desktop/Bitirme Projesi Kodları/wwwroot/uploads/8b070c47-34a2-4741-bd46-274b8ab040ce.png",
+      "PackagePath": "staticwebassets/uploads/8b070c47-34a2-4741-bd46-274b8ab040ce.png"
+    },
+    {
+      "Id": "/Users/emirdursun/Desktop/Bitirme Projesi Kodları/wwwroot/uploads/98627952-750e-48fc-8cf5-d7728dc6662a.jpeg",
+      "PackagePath": "staticwebassets/uploads/98627952-750e-48fc-8cf5-d7728dc6662a.jpeg"
+    },
+    {
+      "Id": "/Users/emirdursun/Desktop/Bitirme Projesi Kodları/wwwroot/uploads/Java-Logo.png",
+      "PackagePath": "staticwebassets/uploads/Java-Logo.png"
+    },
+    {
+      "Id": "/Users/emirdursun/Desktop/Bitirme Projesi Kodları/wwwroot/uploads/PHP-logo..png",
+      "PackagePath": "staticwebassets/uploads/PHP-logo..png"
+    },
+    {
+      "Id": "/Users/emirdursun/Desktop/Bitirme Projesi Kodları/wwwroot/uploads/Python-logo.png",
+      "PackagePath": "staticwebassets/uploads/Python-logo.png"
+    },
+    {
+      "Id": "/Users/emirdursun/Desktop/Bitirme Projesi Kodları/wwwroot/uploads/Sql-logo.png",
+      "PackagePath": "staticwebassets/uploads/Sql-logo.png"
+    },
+    {
+      "Id": "/Users/emirdursun/Desktop/Bitirme Projesi Kodları/wwwroot/uploads/asp-net.png",
+      "PackagePath": "staticwebassets/uploads/asp-net.png"
+    },
+    {
+      "Id": "/Users/emirdursun/Desktop/Bitirme Projesi Kodları/wwwroot/uploads/c_sharp-logo.png",
+      "PackagePath": "staticwebassets/uploads/c_sharp-logo.png"
+    },
+    {
+      "Id": "/Users/emirdursun/Desktop/Bitirme Projesi Kodları/wwwroot/uploads/css-logo.png",
+      "PackagePath": "staticwebassets/uploads/css-logo.png"
+    },
+    {
+      "Id": "/Users/emirdursun/Desktop/Bitirme Projesi Kodları/wwwroot/uploads/html,css,js-logo.png",
+      "PackagePath": "staticwebassets/uploads/html,css,js-logo.png"
+    },
+    {
+      "Id": "/Users/emirdursun/Desktop/Bitirme Projesi Kodları/wwwroot/uploads/html-logo.png",
+      "PackagePath": "staticwebassets/uploads/html-logo.png"
+    },
+    {
+      "Id": "/Users/emirdursun/Desktop/Bitirme Projesi Kodları/wwwroot/uploads/javascript-logo.png",
+      "PackagePath": "staticwebassets/uploads/javascript-logo.png"
+    },
+    {
+      "Id": "/Users/emirdursun/Desktop/Bitirme Projesi Kodları/wwwroot/uploads/learn.jpg",
+      "PackagePath": "staticwebassets/uploads/learn.jpg"
+    },
+    {
+      "Id": "/Users/emirdursun/Desktop/Bitirme Projesi Kodları/wwwroot/uploads/logo.png",
+      "PackagePath": "staticwebassets/uploads/logo.png"
+    },
+    {
+      "Id": "/Users/emirdursun/Desktop/Bitirme Projesi Kodları/wwwroot/uploads/logout.png",
+      "PackagePath": "staticwebassets/uploads/logout.png"
+    },
+    {
+      "Id": "/Users/emirdursun/Desktop/Bitirme Projesi Kodları/wwwroot/uploads/pp.jpg",
+      "PackagePath": "staticwebassets/uploads/pp.jpg"
+    },
+    {
+      "Id": "/Users/emirdursun/Desktop/Bitirme Projesi Kodları/wwwroot/uploads/pp2.png",
+      "PackagePath": "staticwebassets/uploads/pp2.png"
+    },
+    {
+      "Id": "/Users/emirdursun/Desktop/Bitirme Projesi Kodları/wwwroot/uploads/pp3.png",
+      "PackagePath": "staticwebassets/uploads/pp3.png"
+    },
+    {
+      "Id": "/Users/emirdursun/Desktop/Bitirme Projesi Kodları/wwwroot/uploads/profile.png",
+      "PackagePath": "staticwebassets/uploads/profile.png"
+    },
+    {
+      "Id": "/Users/emirdursun/Desktop/Bitirme Projesi Kodları/wwwroot/uploads/react.png",
+      "PackagePath": "staticwebassets/uploads/react.png"
+    },
+    {
+      "Id": "/Users/emirdursun/Desktop/Bitirme Projesi Kodları/wwwroot/uploads/web-scraping-with-python.jpg",
+      "PackagePath": "staticwebassets/uploads/web-scraping-with-python.jpg"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.build.efcoreApp.props",
+      "PackagePath": "build\\efcoreApp.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.efcoreApp.props",
+      "PackagePath": "buildMultiTargeting\\efcoreApp.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.efcoreApp.props",
+      "PackagePath": "buildTransitive\\efcoreApp.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.efcoreApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,39 @@
+@model IEnumerable<Ogrenci>
+
+<h2 style="text-align:center">Student List</h2>
+<hr/>
+
+<table class="table table-bordered">
+    <thead class="bg-warning">
+        <tr>
+            <th style="width:150px;">StudentId</th> 
+            <th>UserName</th>
+            <th>Full Name</th>
+            <th>Level</th>
+            <th>E-Mail</th>
+            <th>ImageURL</th>
+            <th style="width:200px;"></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.OgrenciId)</td>
+                <td>@Html.DisplayFor(modelItem => item.UserName)</td>
+                <td>@Html.DisplayFor(modelItem => item.AdSoyad)</td>
+                <td>@Html.DisplayFor(modelItem => item.Level)</td>
+                <td>@Html.DisplayFor(modelItem => item.Eposta)</td>
+                <td>@Html.DisplayFor(modelItem => item.ImageURL)</td>
+                <td>
+                    <a asp-controller="Ogrenci" asp-action="Details" asp-route-id="@item.OgrenciId"
+                       class="btn btn-info btn-sm">Details</a>
+                    <form method="post" asp-action="Delete" asp-route-id="@item.OgrenciId" class="d-inline">
+                        @Html.AntiForgeryToken()
+                        <button type="submit" class="btn btn-danger btn-sm" onclick="return confirm('Are you sure that you want to delete @item.AdSoyad named student?')">Delete</button>
+                    </form>  
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

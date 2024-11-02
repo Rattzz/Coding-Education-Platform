@@ -1,0 +1,24 @@
+@model Ogrenci
+
+<h2 style="text-align:center">Student Details</h2>
+
+<hr />
+
+<div class="info-card">
+    <img src="~/uploads/@Model.ImageURL" style="width:100%"/>
+    <h5>Username : @Model.UserName</h5>
+    <h5>Full Name : @Model.AdSoyad</h5>
+    <p class="title">E-Mail Address : </p>
+    <p>@Model.Eposta</p>
+    <h5>Level = @Model.Level</h5>
+</div>
+
+<hr />
+
+<h5 style="text-align:center; font-weight:bold; text-decoration:underline">Enrolled Courses</h5>
+<ul style="text-align:center;" class="student-list">
+    @foreach (var item in @Model.KursKayitlari)
+    {
+        <li>@item.Kurs.Baslik</li>
+    }
+</ul>

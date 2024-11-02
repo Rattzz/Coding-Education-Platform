@@ -1,0 +1,31 @@
+﻿@model IEnumerable<Quiz>
+
+<h2 style="text-align:center">Quizzes List</h2>
+<a asp-controller="AdminQuiz" asp-action="Create" role="button" class="btn btn-sm btn-primary">New Quiz</a>
+<hr />
+
+<table class="table table-bordered">
+    <thead class="bg-warning">
+        <tr>
+            <th style="width:150px;">QuizId</th>
+            <th>QuizName</th>
+
+            <th style="width:200px;"></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.QuizId)</td>
+                <td>@Html.DisplayFor(modelItem => item.QuizName)</td>
+                <td>
+                    <a asp-controller="AdminQuiz" asp-action="Edit" asp-route-id="@item.QuizId"
+                       class="btn btn-sm btn-secondary">Edit</a>
+                    <a asp-controller="AdminQuiz" asp-action="Delete" asp-route-id="@item.QuizId"
+                       class="btn btn-sm btn-danger">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

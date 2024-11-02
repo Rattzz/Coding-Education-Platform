@@ -1,0 +1,11 @@
+@model Kurs
+
+<h2 style="text-align:center;font-weight:bolder">Students taking course (@Model.Baslik)</h2>
+<hr />
+
+<ul class="student-list">
+    @foreach(var item in @Model.KursKayitlari)
+    {
+    <li class="student-item">@item.Ogrenci.AdSoyad</li>
+    }
+</ul>

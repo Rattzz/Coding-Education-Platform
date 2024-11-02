@@ -1,0 +1,35 @@
+@model IEnumerable<Video>
+
+<h2 style="text-align:center">Video List</h2>
+<hr/>
+
+<a asp-controller="Video" asp-action="Create" role="button" class="btn btn-sm btn-primary">New Video</a>
+<hr />
+<table class="table table-bordered">
+    <thead class="bg-warning">
+        <tr>
+            <th style="width:150px;">VideoId</th> 
+            <th>CourseId</th>
+            <th>VideoTitle</th>
+            <th>VideoUrl</th>
+            <th style="width:200px;"></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.VideoId)</td>
+                <td>@Html.DisplayFor(modelItem => item.KursId)</td>
+                <td>@Html.DisplayFor(modelItem => item.VideoTitle)</td>
+                <td>@Html.DisplayFor(modelItem => item.VideoUrl)</td>
+                <td>
+                    <form method="post" asp-action="Delete" asp-route-id="@item.VideoId" class="d-inline">
+                        @Html.AntiForgeryToken()
+                        <button type="submit" class="btn btn-danger btn-sm" onclick="return confirm('Are you sure?')">Delete</button>
+                    </form>  
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

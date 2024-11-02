@@ -1,0 +1,46 @@
+﻿@{
+    ViewData["Title"] = "Posts";
+    Layout = "/Views/Shared/_MainLayout.cshtml";
+}
+
+@model IEnumerable<Post>
+
+<h2 style="text-align:center">Tutorials</h2>
+<hr />
+
+<form asp-action="Index" method="get">
+    <div class="input-group mb-3">
+        <input type="text" class="form-control" placeholder="Search" name="searchQuery">
+        <button class="btn btn-outline-secondary" type="submit">Search</button>
+    </div>
+</form>
+
+<form asp-action="Index" method="get">
+    <div class="container mb-3">
+        <div class="row">
+            <div class="col-md-11">
+                <select name="category" class="form-select" asp-items="@(ViewBag.Categories)"
+                        onchange="this.form.submit()">
+                    <option value="0">Select Category</option>
+                </select>
+            </div>
+            <div class="col-md-1">
+                <button type="submit" name="category" value="all" class="btn btn-primary">All</button>
+            </div>
+        </div>
+    </div>
+</form>
+
+<div class="d-flex flex-wrap">
+    @foreach (var post in Model.OrderByDescending(p => p.PostDate))
+    {
+        <div class="cardt mb-3 mx-2" style="width: 18rem;">
+            <div class="cardt-body">
+                <h5 class="cardt-title">@post.Title</h5>
+                <br>
+                <a class="btn btn-success" asp-controller="UserPost2" asp-action="Details" asp-route-id="@post.PostId">Read →</a>
+            </div>
+        </div>
+    }
+</div>
+

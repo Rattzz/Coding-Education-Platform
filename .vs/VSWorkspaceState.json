@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Controllers",
+    "\\Data",
+    "\\Models",
+    "\\Views",
+    "\\Views\\Kurs",
+    "\\Views\\KursKayit",
+    "\\Views\\Ogrenci",
+    "\\Views\\Ogretmen",
+    "\\Views\\Shared"
+  ],
+  "SelectedNode": "\\efcoreApp.sln",
+  "PreviewInSolutionExplorer": false
+}

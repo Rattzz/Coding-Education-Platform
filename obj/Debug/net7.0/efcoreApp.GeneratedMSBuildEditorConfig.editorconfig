@@ -1,0 +1,261 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = efcoreApp
+build_property.RootNamespace = efcoreApp
+build_property.ProjectDir = /Users/emirdursun/Desktop/BITIRMESONDOSYALAR/Bitirme Projesi Kodları/
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
+build_property.MSBuildProjectDirectory = /Users/emirdursun/Desktop/BITIRMESONDOSYALAR/Bitirme Projesi Kodları
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/emirdursun/Desktop/BITIRMESONDOSYALAR/Bitirme Projesi Kodları/Areas/Identity/Pages/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9Mb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/emirdursun/Desktop/BITIRMESONDOSYALAR/Bitirme Projesi Kodları/Areas/Identity/Pages/Account/Manage/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9NYW5hZ2UvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/emirdursun/Desktop/BITIRMESONDOSYALAR/Bitirme Projesi Kodları/Areas/Identity/Pages/Account/Manage/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9NYW5hZ2UvX0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/emirdursun/Desktop/BITIRMESONDOSYALAR/Bitirme Projesi Kodları/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9NYW5hZ2UvX01hbmFnZU5hdi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/emirdursun/Desktop/BITIRMESONDOSYALAR/Bitirme Projesi Kodları/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9NYW5hZ2UvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/emirdursun/Desktop/BITIRMESONDOSYALAR/Bitirme Projesi Kodları/Areas/Identity/Pages/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9SZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/emirdursun/Desktop/BITIRMESONDOSYALAR/Bitirme Projesi Kodları/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9fVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/emirdursun/Desktop/BITIRMESONDOSYALAR/Bitirme Projesi Kodları/Areas/Identity/Pages/_AuthLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvX0F1dGhMYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/emirdursun/Desktop/BITIRMESONDOSYALAR/Bitirme Projesi Kodları/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/emirdursun/Desktop/BITIRMESONDOSYALAR/Bitirme Projesi Kodları/Areas/Identity/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/emirdursun/Desktop/BITIRMESONDOSYALAR/Bitirme Projesi Kodları/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/emirdursun/Desktop/BITIRMESONDOSYALAR/Bitirme Projesi Kodları/Views/AdminQuiz/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW5RdWl6L0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/emirdursun/Desktop/BITIRMESONDOSYALAR/Bitirme Projesi Kodları/Views/AdminQuiz/DeleteConfirm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW5RdWl6L0RlbGV0ZUNvbmZpcm0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/emirdursun/Desktop/BITIRMESONDOSYALAR/Bitirme Projesi Kodları/Views/AdminQuiz/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW5RdWl6L0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/emirdursun/Desktop/BITIRMESONDOSYALAR/Bitirme Projesi Kodları/Views/AdminQuiz/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW5RdWl6L0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/emirdursun/Desktop/BITIRMESONDOSYALAR/Bitirme Projesi Kodları/Views/Compiler/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29tcGlsZXIvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/emirdursun/Desktop/BITIRMESONDOSYALAR/Bitirme Projesi Kodları/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/emirdursun/Desktop/BITIRMESONDOSYALAR/Bitirme Projesi Kodları/Views/Kurs/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvS3Vycy9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/emirdursun/Desktop/BITIRMESONDOSYALAR/Bitirme Projesi Kodları/Views/Kurs/DeleteConfirm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvS3Vycy9EZWxldGVDb25maXJtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/emirdursun/Desktop/BITIRMESONDOSYALAR/Bitirme Projesi Kodları/Views/Kurs/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvS3Vycy9EZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/emirdursun/Desktop/BITIRMESONDOSYALAR/Bitirme Projesi Kodları/Views/Kurs/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvS3Vycy9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/emirdursun/Desktop/BITIRMESONDOSYALAR/Bitirme Projesi Kodları/Views/Kurs/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvS3Vycy9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/emirdursun/Desktop/BITIRMESONDOSYALAR/Bitirme Projesi Kodları/Views/KursKayit/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvS3Vyc0theWl0L0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/emirdursun/Desktop/BITIRMESONDOSYALAR/Bitirme Projesi Kodları/Views/KursKayit/DeleteConfirm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvS3Vyc0theWl0L0RlbGV0ZUNvbmZpcm0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/emirdursun/Desktop/BITIRMESONDOSYALAR/Bitirme Projesi Kodları/Views/KursKayit/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvS3Vyc0theWl0L0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/emirdursun/Desktop/BITIRMESONDOSYALAR/Bitirme Projesi Kodları/Views/Leaderboard/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGVhZGVyYm9hcmQvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/emirdursun/Desktop/BITIRMESONDOSYALAR/Bitirme Projesi Kodları/Views/Main/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTWFpbi9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/emirdursun/Desktop/BITIRMESONDOSYALAR/Bitirme Projesi Kodları/Views/Ogrenci/DeleteConfirm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvT2dyZW5jaS9EZWxldGVDb25maXJtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/emirdursun/Desktop/BITIRMESONDOSYALAR/Bitirme Projesi Kodları/Views/Ogrenci/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvT2dyZW5jaS9EZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/emirdursun/Desktop/BITIRMESONDOSYALAR/Bitirme Projesi Kodları/Views/Ogrenci/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvT2dyZW5jaS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/emirdursun/Desktop/BITIRMESONDOSYALAR/Bitirme Projesi Kodları/Views/Post/AddCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUG9zdC9BZGRDYXRlZ29yeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/emirdursun/Desktop/BITIRMESONDOSYALAR/Bitirme Projesi Kodları/Views/Post/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUG9zdC9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/emirdursun/Desktop/BITIRMESONDOSYALAR/Bitirme Projesi Kodları/Views/Post/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUG9zdC9EZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/emirdursun/Desktop/BITIRMESONDOSYALAR/Bitirme Projesi Kodları/Views/Post/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUG9zdC9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/emirdursun/Desktop/BITIRMESONDOSYALAR/Bitirme Projesi Kodları/Views/Post/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUG9zdC9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/emirdursun/Desktop/BITIRMESONDOSYALAR/Bitirme Projesi Kodları/Views/Question/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUXVlc3Rpb24vQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/emirdursun/Desktop/BITIRMESONDOSYALAR/Bitirme Projesi Kodları/Views/Question/DeleteConfirm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUXVlc3Rpb24vRGVsZXRlQ29uZmlybS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/emirdursun/Desktop/BITIRMESONDOSYALAR/Bitirme Projesi Kodları/Views/Question/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUXVlc3Rpb24vSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/emirdursun/Desktop/BITIRMESONDOSYALAR/Bitirme Projesi Kodları/Views/Quiz/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUXVpei9EZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/emirdursun/Desktop/BITIRMESONDOSYALAR/Bitirme Projesi Kodları/Views/Quiz/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUXVpei9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/emirdursun/Desktop/BITIRMESONDOSYALAR/Bitirme Projesi Kodları/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/emirdursun/Desktop/BITIRMESONDOSYALAR/Bitirme Projesi Kodları/Views/Shared/_LayoutMain.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXRNYWluLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/emirdursun/Desktop/BITIRMESONDOSYALAR/Bitirme Projesi Kodları/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/emirdursun/Desktop/BITIRMESONDOSYALAR/Bitirme Projesi Kodları/Views/Shared/_MainLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19NYWluTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/emirdursun/Desktop/BITIRMESONDOSYALAR/Bitirme Projesi Kodları/Views/Shared/_UserLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19Vc2VyTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/emirdursun/Desktop/BITIRMESONDOSYALAR/Bitirme Projesi Kodları/Views/Shared/_UserSettingsLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19Vc2VyU2V0dGluZ3NMYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/emirdursun/Desktop/BITIRMESONDOSYALAR/Bitirme Projesi Kodları/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/emirdursun/Desktop/BITIRMESONDOSYALAR/Bitirme Projesi Kodları/Views/UserHome/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlckhvbWUvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/emirdursun/Desktop/BITIRMESONDOSYALAR/Bitirme Projesi Kodları/Views/UserKurs/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlckt1cnMvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/emirdursun/Desktop/BITIRMESONDOSYALAR/Bitirme Projesi Kodları/Views/UserKurslarim/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlckt1cnNsYXJpbS9EZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/emirdursun/Desktop/BITIRMESONDOSYALAR/Bitirme Projesi Kodları/Views/UserKurslarim/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlckt1cnNsYXJpbS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/emirdursun/Desktop/BITIRMESONDOSYALAR/Bitirme Projesi Kodları/Views/UserPost/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlclBvc3QvRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/emirdursun/Desktop/BITIRMESONDOSYALAR/Bitirme Projesi Kodları/Views/UserPost/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlclBvc3QvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/emirdursun/Desktop/BITIRMESONDOSYALAR/Bitirme Projesi Kodları/Views/UserPost2/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlclBvc3QyL0RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/emirdursun/Desktop/BITIRMESONDOSYALAR/Bitirme Projesi Kodları/Views/UserPost2/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlclBvc3QyL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/emirdursun/Desktop/BITIRMESONDOSYALAR/Bitirme Projesi Kodları/Views/Video/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVmlkZW8vQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/emirdursun/Desktop/BITIRMESONDOSYALAR/Bitirme Projesi Kodları/Views/Video/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVmlkZW8vRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/emirdursun/Desktop/BITIRMESONDOSYALAR/Bitirme Projesi Kodları/Views/Video/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVmlkZW8vSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/emirdursun/Desktop/BITIRMESONDOSYALAR/Bitirme Projesi Kodları/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/emirdursun/Desktop/BITIRMESONDOSYALAR/Bitirme Projesi Kodları/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/emirdursun/Desktop/BITIRMESONDOSYALAR/Bitirme Projesi Kodları/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-61x4lpnldm

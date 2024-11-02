@@ -1,0 +1,145 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = efcoreApp
+build_property.RootNamespace = efcoreApp
+build_property.ProjectDir = C:\Users\HP\Desktop\Web Development\AspNet\efcoreApp\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\HP\Desktop\Web Development\AspNet\efcoreApp
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/HP/Desktop/Web Development/AspNet/efcoreApp/Areas/Pages/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/Desktop/Web Development/AspNet/efcoreApp/Areas/Pages/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/Desktop/Web Development/AspNet/efcoreApp/Areas/Pages/Account/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/Desktop/Web Development/AspNet/efcoreApp/Areas/Pages/_AuthLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUGFnZXNcX0F1dGhMYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/Desktop/Web Development/AspNet/efcoreApp/Areas/Pages/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/Desktop/Web Development/AspNet/efcoreApp/Areas/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/Desktop/Web Development/AspNet/efcoreApp/Areas/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/Desktop/Web Development/AspNet/efcoreApp/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/Desktop/Web Development/AspNet/efcoreApp/Views/KursKayit/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS3Vyc0theWl0XENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/Desktop/Web Development/AspNet/efcoreApp/Views/KursKayit/DeleteConfirm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS3Vyc0theWl0XERlbGV0ZUNvbmZpcm0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/Desktop/Web Development/AspNet/efcoreApp/Views/KursKayit/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS3Vyc0theWl0XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/Desktop/Web Development/AspNet/efcoreApp/Views/Kurs/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS3Vyc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/Desktop/Web Development/AspNet/efcoreApp/Views/Kurs/DeleteConfirm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS3Vyc1xEZWxldGVDb25maXJtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/Desktop/Web Development/AspNet/efcoreApp/Views/Kurs/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS3Vyc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/Desktop/Web Development/AspNet/efcoreApp/Views/Kurs/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS3Vyc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/Desktop/Web Development/AspNet/efcoreApp/Views/Kurs/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS3Vyc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/Desktop/Web Development/AspNet/efcoreApp/Views/Ogrenci/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2dyZW5jaVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/Desktop/Web Development/AspNet/efcoreApp/Views/Ogrenci/DeleteConfirm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2dyZW5jaVxEZWxldGVDb25maXJtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/Desktop/Web Development/AspNet/efcoreApp/Views/Ogrenci/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2dyZW5jaVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/Desktop/Web Development/AspNet/efcoreApp/Views/Ogrenci/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2dyZW5jaVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/Desktop/Web Development/AspNet/efcoreApp/Views/Ogrenci/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2dyZW5jaVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/Desktop/Web Development/AspNet/efcoreApp/Views/Ogretmen/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2dyZXRtZW5cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/Desktop/Web Development/AspNet/efcoreApp/Views/Ogretmen/DeleteConfirm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2dyZXRtZW5cRGVsZXRlQ29uZmlybS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/Desktop/Web Development/AspNet/efcoreApp/Views/Ogretmen/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2dyZXRtZW5cRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/Desktop/Web Development/AspNet/efcoreApp/Views/Ogretmen/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2dyZXRtZW5cRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/Desktop/Web Development/AspNet/efcoreApp/Views/Ogretmen/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2dyZXRtZW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/Desktop/Web Development/AspNet/efcoreApp/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/Desktop/Web Development/AspNet/efcoreApp/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/Desktop/Web Development/AspNet/efcoreApp/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/Desktop/Web Development/AspNet/efcoreApp/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/Desktop/Web Development/AspNet/efcoreApp/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/Desktop/Web Development/AspNet/efcoreApp/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-f4qgijkujb

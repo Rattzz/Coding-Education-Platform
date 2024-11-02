@@ -1,0 +1,56 @@
+@model KursViewModel
+
+<h2 style="text-align:center">Add Course</h2>
+<hr />
+<form asp-controller="Kurs" asp-action="Create" method="post">
+    <div asp-validation-summary="All" class="text-danger"></div>
+
+    <div class="mb-3">
+        <label asp-for="Baslik" class="form-label">Course Name</label>
+        <input asp-for="Baslik" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="ImageURL" class="form-label">Course Image</label>
+        <input asp-for="ImageURL" type="file" class="form-control" />
+    </div>
+
+    <div class="mb-3" id="initialVideo">
+        <label for="VideoUrl" class="form-label">Video URL</label>
+        <input type="text" name="VideoList[0].VideoUrl" class="form-control" placeholder="Video URL" />
+        <label for="VideoTitle" class="form-label">Video Title</label>
+        <input type="text" name="VideoList[0].VideoTitle" class="form-control" placeholder="Video Title" />
+    </div>
+
+    <button type="button" id="addVideoButton" class="btn btn-primary mb-3">Add Video</button>
+
+    <div id="videoList" class="mb-3">
+        <!-- Burada dinamik olarak oluşturulan video giriş alanları görüntülenecek -->
+    </div>
+
+    <button type="submit" class="btn btn-success">Submit</button>
+</form>
+
+<script>
+    var videoCount = 1;
+
+    document.getElementById('addVideoButton').addEventListener('click', function () {
+        var videoListDiv = document.getElementById('videoList');
+        var newVideoDiv = document.createElement('div');
+
+        var videoUrlInput = document.createElement('input');
+        videoUrlInput.name = 'VideoList[' + videoCount + '].VideoUrl';
+        videoUrlInput.placeholder = 'Video URL';
+
+        var videoTitleInput = document.createElement('input');
+        videoTitleInput.name = 'VideoList[' + videoCount + '].VideoTitle';
+        videoTitleInput.placeholder = 'Video Title';
+
+        newVideoDiv.appendChild(videoUrlInput);
+        newVideoDiv.appendChild(videoTitleInput);
+
+        videoListDiv.appendChild(newVideoDiv);
+
+        videoCount++;
+    });
+</script>

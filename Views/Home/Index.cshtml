@@ -1,0 +1,85 @@
+﻿@using Microsoft.AspNetCore.Identity;
+@using efcoreApp.Areas.Identity.Data;
+
+@inject SignInManager<efcoreAppUser> SigInManager
+@inject UserManager<efcoreAppUser> UserManager
+
+@model AdminDashboardViewModel
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+@if (User.IsInRole("Admin"))
+{
+    <div class="container">
+        <h4 class="text-center mt-5 mb-4" style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">
+            <i class="fa fa-lock" aria-hidden="true"></i>  Welcome, Admin!
+        </h4>
+        <div class="row justify-content-center">
+            <div class="col-md-3">
+                <div class="card mb-4 shadow-effect" style="background-color: #3498db;">
+                    <div class="card-body">
+                        <h1><i class="fa fa-users" aria-hidden="true"></i></h1>
+                        <h4 style="font-weight:bolder;" class="card-title">Student Count</h4>
+                        <h5 style="font-weight:bold;color:beige" class="card-text">@Model.StudentCount</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card mb-4 shadow-effect" style="background-color: #2ecc71;">
+                    <div class="card-body">
+                        <h1><i class="fa fa-book" aria-hidden="true"></i></h1>
+                        <h4 style="font-weight:bolder;" class="card-title">Course Count</h4>
+                        <h5 style="font-weight:bold;color:beige" class="card-text">@Model.CourseCount</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card mb-4 shadow-effect" style="background-color: #e74c3c;">
+                    <div class="card-body">
+                        <h1><i class="fa fa-history" aria-hidden="true"></i></h1>
+                        <h4 style="font-weight:bolder;" class="card-title">Enrollment Count</h4>
+                        <h5 style="font-weight:bold;color:beige" class="card-text">@Model.EnrollmentCount</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card mb-4 shadow-effect" style="background-color: #f1c40f;">
+                    <div class="card-body">
+                        <h1><i class="fa fa-video-camera" aria-hidden="true"></i></h1>
+                        <h4 style="font-weight:bolder;" class="card-title">Video Count</h4>
+                        <h5 style="font-weight:bold;color:beige" class="card-text">@Model.VideoCount</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card mb-4 shadow-effect" style="background-color: #ffb6c1;">
+                    <div class="card-body">
+                        <h1><i class="fa fa-file-text" aria-hidden="true"></i></h1>
+                        <h4 style="font-weight:bolder;" class="card-title">Tutorial Count</h4>
+                        <h5 style="font-weight:bold;color:beige" class="card-text">@Model.PostCount</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card mb-4 shadow-effect" style="background-color: #cc99ff;">
+                    <div class="card-body">
+                        <h1><i class="fa fa-list-alt" aria-hidden="true"></i></h1>
+                        <h4 style="font-weight:bolder;" class="card-title">Quiz Count</h4>
+                        <h5 style="font-weight:bold;color:beige" class="card-text">@Model.QuizCount</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card mb-4 shadow-effect" style="background-color: #888844;">
+                    <div class="card-body">
+                        <h1><i class="fa fa-list-alt" aria-hidden="true"></i></h1>
+                        <h4 style="font-weight:bolder;" class="card-title">Question Count</h4>
+                        <h5 style="font-weight:bold;color:beige" class="card-text">@Model.QuestionCount</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}

@@ -1,0 +1,49 @@
+﻿@using System.Security.Claims;
+@{
+    ViewData["Title"] = "Leaderboard";
+    Layout = "/Views/Shared/_UserLayout.cshtml";
+}
+<h2 style="text-align:center">Leaderboard</h2>
+<hr />
+
+<div class="table-container">
+    <table class="custom-table">
+        <thead>
+            <tr>
+                <th class="rank-column">Rank</th>
+                <th>Username</th>
+                <th>Level</th>
+            </tr>
+        </thead>
+        <tbody>
+            @{
+                int rank = 1;
+                bool isFirst = true;
+                foreach (var student in Model)
+                {
+                    string rowClass = "";
+                    if (User.Identity.IsAuthenticated && student.UserId == User.FindFirstValue(ClaimTypes.NameIdentifier))
+                    {
+                        rowClass = "current-user";
+                    }
+
+                    <tr class="@rowClass">
+                        @if (isFirst)
+                        {
+                            <td class="rank-column"><i class="fas fa-crown crown-icon"></i> @rank</td>
+                        }
+                        else
+                        {
+                            <td class="rank-column">@rank</td>
+                        }
+                        <td><img style="width:30px;height:30px;" src="~/uploads/@student.ImageURL"> @student.UserName</td>
+                        <td>@student.Level</td>
+                    </tr>
+
+                    rank++;
+                    isFirst = false;
+                }
+            }
+        </tbody>
+    </table>
+</div>

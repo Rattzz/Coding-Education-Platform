@@ -1,0 +1,48 @@
+﻿@{
+	Layout = "/Views/Shared/_LayoutMain.cshtml";
+}
+
+<div class="row justify-content-center">
+	<div class="col-5 mt-5">
+		<div class="card login-logout card">
+			<div class="card-header" style="padding: 0px 0px 12px 0px;">
+				<ul class="nav nav-tabs card-header-tabs" style="margin: 0px 0px -12px 0px;">
+					<li class="nav-item" style="width: 50%;">
+						<a class="nav-link" href="/Identity/Account/Login" style="font-size: 1rem;
+                        color: #495057;
+                        text-align: center;
+                        padding: 1rem;">Login</a>
+					</li>
+					<li class="nav-item" style="width: 50%;">
+						<a class="nav-link" href="/Identity/Account/Register" style="font-size: 1rem;
+                        color: #495057;
+                        text-align: center;
+                        padding: 1rem;">Register</a>
+					</li>
+				</ul>
+			</div>
+			<div class="card-body" stlye="padding: 10px 20px;">
+				<div class="row justify-content-center">
+					<div class="col-10 my-4">
+						@RenderBody()
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+@section Scripts{
+	@await RenderSectionAsync("Scripts", required: false)
+	<script>
+		$(function () {
+			const currentPage = location.pathname;
+			$('.nav-tabs li a').each(function () {
+				const $this = $(this);
+				if (currentPage.toLowerCase().indexOf($this.attr('href').toLowerCase()) != -1) {
+					$this.addClass('active');
+				}
+			})
+		})
+	</script>
+}

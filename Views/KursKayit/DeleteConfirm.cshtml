@@ -1,0 +1,12 @@
+@model KursKayit
+
+<div>
+    <p>
+        You want to delete student from course?
+        <form method="post" action="">
+            <input type="hidden" asp-for="@Model.KursKayitId" />
+            <button type="submit" class="btn btn-danger">Yes</button>
+            <a href="/KursKayit/Index" class="btn btn-success">No</a>
+        </form>
+    </p>
+</div>

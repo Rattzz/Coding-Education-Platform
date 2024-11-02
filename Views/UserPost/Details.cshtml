@@ -1,0 +1,33 @@
+﻿@using efcoreApp.Data
+@{
+    ViewData["Title"] = "Posts";
+    Layout = "/Views/Shared/_UserLayout.cshtml";
+}
+
+@model Post
+
+<h2 style="text-align:center;font-weight:bold">@Model.Title</h2>
+<hr />
+<div class="card mb-3">
+    <div class="card-body">
+        <div class="post-content" id="post-content">
+            @Html.Raw(Model.Body)
+        </div>
+        <p class="card-text"><small class="text-muted">@Model.PostDate.ToString("dd.MM.yyyy hh:mm")</small></p>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('#post-content a').addClass('custom-link');
+    });
+</script>
+
+<style>
+    .custom-link {
+        color: navy !important;
+        text-decoration-line: underline; /* Set your desired link color */
+    }
+</style>
+

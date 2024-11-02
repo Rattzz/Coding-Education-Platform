@@ -1,0 +1,12 @@
+@model Kurs
+
+<div>
+    <p>
+        Are you sure about deleting @Model.Baslik named course?
+        <form method="post" action="">
+            <input type="hidden" asp-for="@Model.KursId" />
+            <button type="submit" class="btn btn-danger">Yes</button>
+            <a href="/Kurs/Index" class="btn btn-success">No</a>
+        </form>
+    </p>
+</div>

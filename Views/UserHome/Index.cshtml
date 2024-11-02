@@ -1,0 +1,175 @@
+﻿@using Microsoft.AspNetCore.Identity;
+@using efcoreApp.Areas.Identity.Data;
+
+@inject SignInManager<efcoreAppUser> SigInManager
+@inject UserManager<efcoreAppUser> UserManager
+
+@model efcoreAppUser
+
+@{
+    ViewData["Title"] = "Home Page";
+    Layout = "/Views/Shared/_UserLayout.cshtml";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+            <h5>Welcome to Code Academy, @Model.firstName @Model.lastName</h5>
+        </div>
+        <div class="welcome-text">
+            <p><i class="fas fa-terminal" style="color: #130fdb;" aria-hidden="true"></i> Explore our courses and start learning to code today!</p>
+        </div>
+    </div>
+    <div class="container2" style="background-color: #c3e6cb">
+        <div class="lesson-info">
+            <div class="lesson-title">HTML</div>
+            <div class="lesson-description">The language for building web pages</div>
+            <a href="/UserPost/Index?category=5" class="tutorial-button">Explore HTML Tutorials</a>
+            <a href="~/Quiz/Details/32" class="quiz-button">Solve HTML Quiz</a>
+        </div>
+        <div class="lesson-example">
+            <div class="lesson-example-title">HTML Example</div>
+            <code>
+                &lt;!DOCTYPE html&gt;<br>
+                &lt;html lang="en"&gt;<br>
+                &lt;head&gt;<br>
+                &lt;meta charset="UTF-8"&gt;<br>
+                &lt;title&gt;Document&lt;/title&gt;<br>
+                &lt;/head&gt;<br>
+                &lt;body&gt;<br>
+                &lt;h1&gt;Hello, World!&lt;/h1&gt;<br>
+                &lt;/body&gt;<br>
+                &lt;/html&gt;
+            </code>
+        </div>
+    </div>
+
+    <div class="container2" style="background-color: #ffb3b3;">
+        <div class="lesson-info">
+            <div class="lesson-title">CSS</div>
+            <div class="lesson-description">The language for styling web pages</div>
+            <a href="/UserPost/Index?category=6" class="tutorial-button">Explore CSS Tutorials</a>
+            <a href="~/Quiz/Details/33" class="quiz-button">Solve CSS Quiz</a>
+        </div>
+        <div class="lesson-example">
+            <div class="lesson-example-title">CSS Example</div>
+            <code>
+                body {<br>
+                background-color: #f0f0f0;<br>
+                color: #333;<br>
+                }<br>
+                .container {<br>
+                margin: 0 auto;<br>
+                padding: 20px;<br>
+                }<br>
+                h1 {<br>
+                color: #007bff;<br>
+                }<br>
+                p {<br>
+                line-height: 1.5;<br>
+                }<br>
+            </code>
+        </div>
+    </div>
+
+    <div class="container2" style="background-color: #b3d9ff;">
+        <div class="lesson-info">
+            <div class="lesson-title">JavaScript</div>
+            <div class="lesson-description">The language for making web pages interactive</div>
+            <a href="/UserPost/Index?category=7" class="tutorial-button">Explore JavaScript Tutorials</a>
+            <a href="~/Quiz/Details/34" class="quiz-button">Solve JavaScript Quiz</a>
+        </div>
+        <div class="lesson-example" style="margin-top: 20px;">
+            <div class="lesson-example-title">JavaScript Example</div>
+            <code>
+                // Calculate the factorial of a number using a recursive function<br>
+                function factorial(n) {<br>
+                if (n === 0 || n === 1) {<br>
+                return 1;<br>
+                }<br>
+                return n * factorial(n - 1);<br>
+                }<br>
+                <br>
+                // Test the factorial function<br>
+                let num = 5;<br>
+                let result = factorial(num);<br>
+                console.log("Factorial of " + num + " is " + result);<br>
+            </code>
+        </div>
+    </div>
+
+    <div class="container2" style="background-color: #ace600;">
+        <div class="lesson-info">
+            <div class="lesson-title">Python</div>
+            <div class="lesson-description">A powerful programming language</div>
+            <a href="/UserPost/Index?category=2" class="tutorial-button">Explore Python Tutorials</a>
+            <a href="~/Quiz/Details/35" class="quiz-button">Solve Python Quiz</a>
+        </div>
+        <div class="lesson-example">
+            <div class="lesson-example-title">Python Example</div>
+            <code>
+                # This is a Python example<br>
+                def greet(name):<br>
+                return "Hello, " + name + "!"<br>
+                <br>
+                print(greet("World"))<br>
+            </code>
+        </div>
+    </div>
+
+    <div class="container2" style="background-color: #262626;">
+        <div class="container3" style="background-color: none">
+            <div class="container-item" style="background-color: #ccccff">
+                <div class="lesson-title-small">C</div>
+                <div class="lesson-description">A procedural programming language with a static system.</div>
+                <a href="/UserPost/Index?category=4" class="tutorial-button">C Tutorials</a>
+                <a href="~/Quiz/Details/36" class="quiz-button">Solve Quiz</a>
+            </div>
+            <div class="container-item" style="background-color: #99ccff; border-radius: 10px; padding: 20px;">
+                <div class="lesson-title-small">ASP.NET</div>
+                <div class="lesson-description">The framework for building modern web applications with .NET.</div>
+                <a href="/UserPost/Index?category=1" class="tutorial-button">ASP.NET Tutorials</a>
+                <a href="~/Quiz/Details/37" class="quiz-button">Solve Quiz</a>
+            </div>
+            <div class="container-item" style="background-color: #98ccccff">
+                <div class="lesson-title-small">C#</div>
+                <div class="lesson-description">An object-oriented programming language.</div>
+                <a href="/UserPost/Index?category=9" class="tutorial-button">C# Tutorials</a>
+                <a href="~/Quiz/Details/38" class="quiz-button">Solve Quiz</a>
+            </div>
+        </div>
+    </div>
+    <div class="container2" style="background-color: #262626;">
+        <div class="container3" style="background-color: none">
+            <div class="container-item" style="background-color: #67ccccff">
+                <div class="lesson-title-small">PHP</div>
+                <div class="lesson-description">A web server programming language.</div>
+                <a href="/UserPost/Index?category=8" class="tutorial-button">PHP Tutorials</a>
+                <a href="~/Quiz/Details/39" class="quiz-button">Solve Quiz</a>
+            </div>
+            <div class="container-item" style="background-color: #79ccff; border-radius: 10px; padding: 20px;">
+                <div class="lesson-title-small">Java</div>
+                <div class="lesson-description">A high-level, class-based, object-oriented programming language.</div>
+                <a href="/UserPost/Index?category=10" class="tutorial-button">Java Tutorials</a>
+                <a href="~/Quiz/Details/40" class="quiz-button">Solve Quiz</a>
+            </div>
+            <div class="container-item" style="background-color: #ddff">
+                <div class="lesson-title-small">SQL</div>
+                <div class="lesson-description">A programming language used for accessing databases.</div>
+                <a href="/UserPost/Index?category=11" class="tutorial-button">SQL Tutorials</a>
+                <a href="~/Quiz/Details/41" class="quiz-button">Solve Quiz</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

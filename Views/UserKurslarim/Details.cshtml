@@ -1,0 +1,88 @@
+﻿@using System.Security.Claims;
+@model Kurs
+
+@{
+    ViewData["Title"] = "Videolar";
+    Layout = "/Views/Shared/_UserLayout.cshtml";
+}
+<h2 style="text-align:center">@Model.Baslik</h2>
+<hr />
+<div>
+    @foreach (var video in Model.KursVideos)
+    {
+        var watchedChecks = video.VideoWatchedChecks;
+
+        <div class="video">
+            <label>
+                <input type="checkbox" id="checkbox-@video.VideoId" onclick="toggleVideo('@video.VideoId', 'User.FindFirst(ClaimTypes.NameIdentifier)?.Value')" @(watchedChecks != null && watchedChecks.Any(c => c.Watched && c.OgrenciId == User.FindFirst(ClaimTypes.NameIdentifier)?.Value) ? "checked" : "") />
+            </label>
+            <span style="color:#266887 ;font-size:20px ; cursor:pointer; font-weight:bold" onclick="openVideo('@video.VideoId')">
+                @video.VideoTitle <i class="fa fa-play-circle-o play" aria-hidden="true"></i>
+            </span>
+            @foreach (var check in watchedChecks.Where(c => c.OgrenciId == User.FindFirst(ClaimTypes.NameIdentifier)?.Value))
+            {
+                @if (check.Watched)
+                {
+                    <span id="watched-@video.VideoId" style="color:green; cursor:pointer; font-weight:bold">
+                        <i class="fa fa-check"></i>
+                    </span>
+                }
+            }
+
+
+            <div id="video-@video.VideoId" style="display:none; text-align:center">
+                <iframe width="560" height="315" src="@video.VideoUrl"
+                        title="@Model.Baslik" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+            </div>
+        </div>
+    }
+</div>
+
+
+<script>
+    function toggleVideo(videoId, studentId) {
+    var checkbox = document.getElementById("checkbox-" + videoId);
+    var watchedSpan = document.getElementById("watched-" + videoId);
+
+    if (checkbox.checked) {
+        // Checkbox işaretleme durumunu veritabanına kaydedin
+        $.post("/UserKurslarim/MarkAsWatched", { videoId: videoId, studentId: studentId }, function (data) {
+            if (data.success) {
+                console.log("Video checked succesfully.");
+                // Checkbox işaretleme başarılı olduğunda kırmızı "Watched" yazısını görünür yap
+                if (watchedSpan) {
+                    watchedSpan.style.display = "inline";
+                }
+            } else {
+                console.error("An error occured while checking.");
+            }
+        });
+    } else {
+        // Checkbox işaretleme durumunu veritabanından kaldırın
+        $.post("/UserKurslarim/MarkAsUnwatched", { videoId: videoId, studentId: studentId }, function (data) {
+            if (data.success) {
+                    console.log("Video check removed succesfully.");
+                // Checkbox işaretleme kaldırma başarılı olduğunda kırmızı "Watched" yazısını gizle
+                if (watchedSpan) {
+                    watchedSpan.style.display = "none";
+                }
+            } else {
+                    console.error("An error occured while removing check");
+            }
+        });
+    }
+}
+
+
+
+    function openVideo(videoId) {
+        var videoDiv = document.getElementById("video-" + videoId);
+        if (videoDiv.style.display === "none") {
+            videoDiv.style.display = "block";
+        } else {
+            videoDiv.style.display = "none";
+        }
+    }
+</script>

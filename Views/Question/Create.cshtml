@@ -1,0 +1,87 @@
+﻿@model efcoreApp.Models.QuestionViewModel
+
+<h2>Create a New Question</h2>
+<hr />
+
+<form asp-controller="Question" asp-action="Create" method="post">
+    <div class="form-group">
+        <label asp-for="QuizId" class="control-label">Select Quiz:</label>
+        <select asp-for="QuizId" class="form-control" asp-items="@ViewBag.QuizList"></select>
+        <span asp-validation-for="QuizId" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="QuestionText" class="control-label">Question Text:</label>
+        <input asp-for="QuestionText" class="form-control" />
+        <span asp-validation-for="QuestionText" class="text-danger"></span>
+    </div>
+
+    <div class="form-group" id="answers-container">
+        <!-- Bu kısım artık boş, sadece JavaScript kodu tarafından doldurulacak -->
+    </div>
+    <br />
+    <button type="button" class="btn btn-sm btn-dark mb-3" onclick="addAnswer()">Add Answer</button>
+
+    <button type="submit" class="btn btn-success mb-3">Create Question</button>
+</form>
+
+@section Scripts {
+    <script>
+        var answerCount = 0; // Başlangıçta hiçbir cevap yok
+
+        function addAnswer() {
+            var answersContainer = document.getElementById('answers-container');
+            var newAnswerDiv = document.createElement('div');
+            newAnswerDiv.classList.add('answer-item', 'mb-3');
+
+            var answerText = document.createElement('input');
+            answerText.name = 'AnswerList[' + answerCount + '].AnswerText';
+            answerText.classList.add('form-control', 'answer-text');
+            answerText.placeholder = 'Answer Text';
+
+            var answerCheck = document.createElement('div');
+            answerCheck.classList.add('form-check', 'mt-2');
+
+            var correctAnswer = document.createElement('input');
+            correctAnswer.name = 'AnswerList[' + answerCount + '].Correct';
+            correctAnswer.classList.add('form-check-input', 'correct-answer');
+            correctAnswer.type = 'checkbox';
+            correctAnswer.value = 'true'; // Bu değeri true olarak ayarlayın
+
+            var correctLabel = document.createElement('label');
+            correctLabel.classList.add('form-check-label');
+            correctLabel.textContent = 'Correct';
+
+            var removeButton = document.createElement('button');
+            removeButton.type = 'button';
+            removeButton.classList.add('btn', 'btn-danger', 'mt-2');
+            removeButton.textContent = 'Remove Answer';
+            removeButton.addEventListener('click', function () {
+                removeAnswer(this);
+            });
+
+            answerCheck.appendChild(correctAnswer);
+            answerCheck.appendChild(correctLabel);
+
+            newAnswerDiv.appendChild(answerText);
+            newAnswerDiv.appendChild(answerCheck);
+            newAnswerDiv.appendChild(removeButton);
+
+            answersContainer.appendChild(newAnswerDiv);
+
+            answerCount++;
+        }
+
+        function removeAnswer(button) {
+            button.closest('.answer-item').remove();
+        }
+
+        // Formu göndermeden önce checkboxların value değerini true/false olarak ayarla
+        document.querySelector('form').addEventListener('submit', function (event) {
+            var correctCheckboxes = document.querySelectorAll('.correct-answer');
+            correctCheckboxes.forEach(function (checkbox) {
+                checkbox.value = checkbox.checked.toString(); // Doğru ise true, yanlış ise false yap
+            });
+        });
+    </script>
+}

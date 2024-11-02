@@ -1,0 +1,79 @@
+﻿@{
+    ViewData["Title"] = "Kurslar";
+    Layout = "/Views/Shared/_UserLayout.cshtml";
+}
+
+@model IEnumerable<Kurs>
+
+<h2 style="text-align:center">Courses List</h2>
+<hr />
+
+<div class="card-container">
+    @foreach (var item in Model)
+    {
+        <div class="info-card" style="width: 350px; height: 300px;">
+            @if (!string.IsNullOrEmpty(item.ImageURL))
+            {
+                <img src="~/uploads/@item.ImageURL" style="height:50%;width:75%;margin-bottom:10px;margin-top:10px;" />
+            }
+            <h5 class="bg-light" style="padding:10px;font-weight:bold;border-radius:10px">
+                @Html.DisplayFor(modelItem => item.Baslik)
+            </h5>
+            <form class="kayitForm">
+                <input type="hidden" name="kursId" value="@item.KursId" />
+                <button type="button" class="btn btn-sm btn-success" style="font-size:16px;border-radius:10px;"
+                        data-kursid="@item.KursId">
+                    Enroll
+                </button>
+            </form>
+        </div>
+    }
+</div>
+
+<div id="message-container" style="position: fixed; bottom: 20px; right: 20px;">
+    <div id="message" style="display: none; background-color: #4CAF50; color: white; padding: 15px; border-radius: 10px;"></div>
+</div>
+
+
+<script>
+    document.querySelectorAll('.kayitForm').forEach(function (form) {
+        form.querySelector('button').addEventListener('click', function () {
+            var kursId = form.querySelector('input[name="kursId"]').value;
+
+            fetch('/UserKurs/Register/' + kursId, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                }
+            })
+                .then(function (response) {
+                    if (response.ok) {
+                        return response.json();
+                    } else {
+                        throw new Error('Kayıt işlemi başarısız.');
+                    }
+                })
+                .then(function (data) {
+                    if (data.success) {
+                        // Kayıt başarılıysa mesajı göster
+                        showMessage("Enrolled Successfully!", "#4CAF50");
+                    } else {
+                        // Kayıt başarısızsa hata mesajını göster
+                        showMessage("You Are Already Enrolled!", "#FF5733");
+                    }
+                })
+                .catch(function (error) {
+                    // Hata durumunda hata mesajını göster
+                    showMessage(error.message);
+                });
+        });
+    });
+
+    function showMessage(message, color) {
+        var messageDiv = document.getElementById("message");
+        messageDiv.textContent = message;
+        messageDiv.style.backgroundColor = color;
+        messageDiv.style.display = "block";
+        setTimeout(function () { messageDiv.style.display = "none"; }, 3000);
+    }
+</script>

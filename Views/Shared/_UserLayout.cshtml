@@ -1,0 +1,136 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Code Academy</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/efcoreApp.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3 sticky-navbar">
+            <div class="container">
+                <a class="navbar-brand" asp-area="" asp-controller="UserHome" asp-action="Index">
+                    <i style="color:#1a53ff" class="fa fa-laptop-code" aria-hidden="true"></i>
+                    <span class="brand-title">Code Academy</span>
+                    <span class="brand-slogan">Become a coding expert</span>
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="UserHome" asp-action="Index">
+                                <i class="fa fa-home" aria-hidden="true"></i> Home
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark " asp-area="" asp-controller="UserKurs" asp-action="Index">
+                                <i style="color:#b45" class="fa fa-book" aria-hidden="true"></i> All Courses
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark " asp-area="" asp-controller="UserKurslarim" asp-action="Index">
+                                <i style="color:#f4a343" class="fa fa-bookmark" aria-hidden="true"></i> My Courses
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark " asp-area="" asp-controller="UserPost" asp-action="Index">
+                                <i style="color:#3366ff" class="fa fa-file-text" aria-hidden="true"></i> Tutorials
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Compiler" asp-action="Index">
+                                <i style="color:navy" class="fa fa-code" aria-hidden="true"></i> Compiler
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Quiz" asp-action="Index">
+                                <i class="fa fa-list-alt" aria-hidden="true"></i> Quizzes
+                            </a>
+                        </li>    
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Leaderboard" asp-action="Index">
+                                <i style="color:gold" class="fa fa-trophy" aria-hidden="true"></i> Leaderboard
+                            </a>
+                        </li>
+                    </ul>
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        <div class="nav-item">
+                            <span class="nav-link text-dark">
+                                <i style="color:gold" class="fa fa-trophy" aria-hidden="true"></i> Level: @ViewBag.UserLevel
+                            </span>
+                        </div>
+                    }
+                </div>
+                <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
+                    <partial name="_LoginPartial.cshtml" />
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer style="background-color:#262626" class="border-top footer text-muted">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5 style="color: #d9d9d9">About Us</h5>
+                    <p style="color: #d9d9d9">
+                        Code Academy is a platform providing education in software field with course videos and written tutorials
+                        and lets you exercise with compiler and test your knowledge with quizzes.
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <h5 style="color: #d9d9d9">Contact</h5>
+                    <p style="color: #d9d9d9">Email: codeacademy2024@outlook.com</p>
+                    <p style="color: #d9d9d9">Phone: +1234567890</p>
+                </div>
+                <div class="col-md-4">
+                    <h5 style="color: #d9d9d9">Social Media</h5>
+                    <ul class="list-inline">
+                        <li class="list-inline-item"><a href="#"><i style="color:#0066ff" class="fab fa-facebook"></i></a></li>
+                        <li class="list-inline-item"><a target="_blank" href="https://x.com/codeacademy2024"><i style="color:#0066ff" class="fab fa-twitter"></i></a></li>
+                        <li class="list-inline-item"><a href="#"><i style="color:#f09433" class="fab fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <p style="color: #d9d9d9" class="text-center">&copy; 2023 - Code Academy</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script>
+        $(document).ready(function () {
+            $('.navbar-nav .nav-link').click(function () {
+                // Önce tüm nav-link öğelerinden .active-link sınıfını kaldırın
+                $('.navbar-nav .nav-link').removeClass('active-link');
+
+                // Tıklanan öğeye .active-link sınıfını ekleyin
+                $(this).addClass('active-link');
+            });
+        });
+    </script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

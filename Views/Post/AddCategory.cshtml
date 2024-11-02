@@ -1,0 +1,12 @@
+﻿@model Category
+
+<form asp-controller="Post" asp-action="AddCategory" method="post">
+    <div class="mb-3">
+        <div class="mb-3">
+            <label asp-for="Name" class="form-label">Category Name :</label>
+            <input asp-for="Name" class="form-control mb-3" autocomplete="name" aria-required="true" placeholder="Enter Category Name" />
+            <span asp-validation-for="Name" class="text-danger"></span>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+    </div>
+</form>

@@ -1,0 +1,30 @@
+﻿@model KurslarViewModel
+
+@{
+    ViewData["Title"] = "Kurslar";
+    Layout = "/Views/Shared/_UserLayout.cshtml";
+}
+
+<h2 style="text-align:center">My Courses</h2>
+<hr />
+
+<div class="card-container">
+        @foreach (var kursId in Model.OgrencininKurslari)
+        {
+            var kurs = Model.Kurslar.FirstOrDefault(k => k.KursId == kursId);
+            if (kurs != null)
+            {
+            <div class="info-card" style="width: 350px; height: 300px;">
+                @if (!string.IsNullOrEmpty(kurs.ImageURL))
+                {
+                    <img src="~/uploads/@kurs.ImageURL" style="height:50%;width:75%;margin-top:10px;margin-bottom:10px;" />
+                }
+                <h5 class="bg-light" style="padding:10px;font-weight:bold;border-radius:10px">
+                    @Html.DisplayFor(modelItem => kurs.Baslik)</h5>
+                <a asp-controller="UserKurslarim" asp-action="Details" asp-route-id="@kurs.KursId"
+                   class="btn btn-sm btn-primary" style="font-size:16px;border-radius:10px;font-weight:bold;
+                position: unset;">Videos</a>
+            </div>
+            }
+        }
+</div>

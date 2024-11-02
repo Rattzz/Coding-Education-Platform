@@ -1,0 +1,11 @@
+@model Ogrenci
+
+<div>
+    <p>
+        Are you sure that you want to delete @Model.OgrenciAd named student?
+        <form method="post" asp-action="Delete" asp-route-id="@Model.OgrenciId">
+            <button type="submit" class="btn btn-danger">Yes</button>
+            <a href="/Ogrenci/Index" class="btn btn-success">No</a>
+        </form>
+    </p>
+</div>
